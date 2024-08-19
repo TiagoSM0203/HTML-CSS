@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: bisque;
+        }
+        header{
+            background-color: white;
+            padding: 20px;
+            margin: 20px;
+        }
+        nav{
+            background-color: gray;
+            padding: 10px;
+            text-align: center;
+            
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right:30px;
+            
+        }
+        nav > a:hover{
+            color: rgb(61, 61, 61);
+            
+        }
+        main{
+            background-color: white;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 20px;
+        }
+        article{
+            background-color: rgb(110, 110, 110);
+        }
+        article > aside{
+            background-color: rgba(54, 54, 54, 0.438);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p{
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Grouping Tags</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit impedit ex quasi debitis sapiente aut pariatur eaque esse, alias suscipit officia similique rem unde distinctio minus facilis maxime dicta! Facilis.</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticia sobre o brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quis reprehenderit perferendis eius quos, recusandae quasi dolore ex saepe exercitationem asperiores accusantium maxime, placeat explicabo deleniti fugiat nisi sed eaque.</p>
+                <aside>
+                    <p>Artigo escrito por mim</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo Tigas</p>
+    </footer>
+
+</body>
+</html>

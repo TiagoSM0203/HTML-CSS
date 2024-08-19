@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinamicas</title>
+</head>
+<body>
+    <h1>Imagens Dinamicas</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes ou mude o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width: 700px)" srcset="img/P.png" type="image/png"> <!-- TEM QUE SER NA ORDEM POIS SE NAO DA ERRO -->
+        <source media="(max-width: 1050px)" srcset="img/M.png" type="image/png">
+        <img src="img/G.png" alt="G">
+    </picture>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes</title>
+    <style>
+        @font-face {
+            font-family: 'sla';
+            src: url('fonts/Kankin.ttf') format('truetype'), url('fonts/Kankin.ttf'), format('truetype');
+            font-weight: normal;
+            font-style: normal;
+
+            /* tipos de formatos()
+                - opentype (otf)
+                - truetype (ttf)
+                - embedded-opentype
+                - truetype-aat
+                - svg 
+            */
+        }
+        @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+        body{
+            font-family:'Work Sans';
+            /*
+            Medidas absolutas
+            cm, mm, in, px(recomendado), pt, pc
+
+            Medidas relativas
+            em(recomendado), ex, rem, vw, vh, %
+            1em = 16px
+            */
+            font-size: 1em;
+            font-weight: normal;
+            font-style: italic;
+            text-decoration: underline;
+            /* lighter normal bold bolder */
+        }
+        h1{
+            font: italic bolder 3em 'sla', sans-serif;
+            /* shorthand font
+            - style weight size family */
+        }
+        h2{
+            font: bold 2em 'Work Sans';
+        }
+        p{
+            font-family: 'sla', Times, serif;
+            font-size: 1.2em;
+            font-weight: normal;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi aspernatur rem eligendi, obcaecati officia ipsum at iste iusto, itaque corrupti quis tempora eveniet culpa eius nobis suscipit blanditiis. Fuga dolorem totam ad ea culpa magnam sunt vero, distinctio ipsa id! Esse omnis ut sint nam quaerat officiis dolorum voluptatum tempore sapiente in voluptate, nobis aliquid fugiat libero, repellat nihil recusandae delectus quae incidunt totam eum cum iure vero sunt. Necessitatibus pariatur consectetur ullam iure id, vitae nisi alias culpa, debitis quae saepe exercitationem ex? Dolore molestias atque expedita ea unde, sint nihil maxime odio at cupiditate quo saepe temporibus? Qui.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo quo fugiat provident, consequatur itaque pariatur cum! Obcaecati fugit, fuga cupiditate, ut dolor vel quos modi eos, assumenda tempore qui non.</p>
+    <h2>Subtitulo do exercicio</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere sequi mollitia nobis voluptatem fugiat amet unde architecto laudantium neque doloremque beatae repudiandae sint vitae maxime possimus, perferendis repellendus reprehenderit harum?</p>
+</body>
+</html>

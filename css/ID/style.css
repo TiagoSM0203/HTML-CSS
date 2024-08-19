@@ -1,0 +1,42 @@
+@charset "UFT-8";
+
+/* 
+    em HTML id = # (so pode um elemento)
+    em HTML class = . (pode varios elementos)
+*/
+
+body{
+    background-color: #da2c47;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1{
+    color: #85000e;
+}
+
+#principal{
+    text-align: center;
+    background-color: #85000e;
+    color: #da2c47;
+}
+
+h2{
+    color: #b0162b;
+}
+
+.basico{
+    color: aliceblue;
+}
+
+.intermediario{
+    color: black;
+}
+
+.avancado{
+    color: aqua;
+}
+
+.destaque{
+    background-color: rgba(202, 202, 90, 0.658);
+}
