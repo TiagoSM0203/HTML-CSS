@@ -1,0 +1,110 @@
+@charset 'UTF-8';
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=New+Amsterdam&family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=New+Amsterdam&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    min-height: 100vh;
+}
+
+header {
+    background-color: black;
+    padding: 40px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+div {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+header h1 {
+    font-family: 'Passion One', sans-serif;
+    font-size: 10vw;
+    color: white;
+    padding: 10px;
+}
+
+header p {
+    color: white;
+}
+
+.bloco1 {
+    font-family: 'Sriracha', cursive;
+    font-weight: bold;
+    line-height: 50px;
+    font-size: 3.5vh;
+    padding: 60px 60px 60px 20px;
+    letter-spacing: 2px;
+}
+
+.bloco2 {
+    color: white;
+    background-image: url('imagens/background001.jpg');
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right center;
+    font-family: 'Sriracha';
+    font-weight: bold;
+    line-height: 50px;
+    text-shadow: 2px 3px 6px rgba(0,0,0,0.64);
+    box-shadow: inset 0px 6px 12px -6px rgba(0,0,0,0.75);
+    font-size: 3.5vh;
+    padding: 60px 60px 60px 20px;
+    letter-spacing: 2px;
+}
+
+.bloco1, .bloco2 p {
+    display: inline-block;
+}
+
+.box1 {
+    background-color: rgba(0, 0, 0, 0.315);
+    max-width: 450px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.bloco3 {
+    color: white;
+    background-image: url('imagens/background002.jpg');
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center right;
+    font-family: 'Sriracha';
+    font-weight: bold;
+    line-height: 50px;
+    text-shadow: 2px 3px 6px rgba(0,0,0,0.64);
+    box-shadow: inset 0px 6px 12px -6px rgba(0,0,0,0.75);
+    font-size: 3.5vh;
+    padding: 60px 60px 60px 20px;
+    letter-spacing: 2px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
