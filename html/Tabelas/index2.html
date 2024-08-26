@@ -12,6 +12,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         td, th {
@@ -19,9 +20,30 @@
             padding: 10px;
         }
 
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: rgba(128, 128, 128, 0.63);
+        }
+
+        tbody tr:nth-child(odd) { /* 2n - 1 */
+            background-color: lightgray;
+        }
+
+        tbody tr:nth-child(even) { /* 2n */
+            background-color: white;
+        }
+
         thead, tfoot {
             background-color: gray;
             color: white;
+        }
+
+        thead tr th {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
         }
 
         .num {
@@ -32,8 +54,9 @@
 <body>
     <h1>Tabelas Grandes</h1>
 
-    <!-- ANATOMIA PARA TABELAS GRANDES TABLE
+    <!-- ANATOMIA PARA TABELAS GRANDES
             TABLE
+                CAPTION
                 THEAD
                     TR TD TH
                 TBODY
@@ -43,10 +66,11 @@
     -->
 
     <table>
+        <caption>Populacao das Unidades Federativas</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>Populacao</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">Populacao</th>
             </tr>
         </thead>
         <tbody>
@@ -66,10 +90,18 @@
                 <td>Bahia</td>
                 <td class="num">14.873.064</td>
             </tr>
+            <tr>
+                <td>Parana</td>
+                <td class="num">11.433.957</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11.377.239</td>
+            </tr>
         </tbody>
         <tfoot>
             <tr>
-                <th><strong>Total de Habitantes</strong></th>
+                <th scope="row"><strong>Total de Habitantes</strong></th>
                 <td class="num">0000</td>
             </tr>
         </tfoot>
