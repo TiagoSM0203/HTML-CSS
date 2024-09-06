@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Opcao 1</a></li>
+                <li><a href="#">Opcao 2</a></li>
+                <li><a href="#">Opcao 3</a></li>
+                <li><a href="#">Opcao 4</a></li>
+                <li><a href="#">Opcao 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio voluptatum odit nemo magnam veritatis. Doloribus quae nisi nemo optio, magnam dolore laboriosam rem, ratione facilis minima aperiam nesciunt mollitia praesentium voluptatem numquam. Esse doloribus dolores odio minima, dolore sequi eius numquam incidunt itaque, aperiam illo non distinctio, quod nisi dolorum consequuntur excepturi dignissimos facilis eligendi? Aperiam blanditiis labore quidem voluptas, nisi in, voluptatem dolor cupiditate eveniet iusto error, ut sint. Error perspiciatis iure facere eveniet inventore blanditiis quas, consequatur adipisci esse iusto! Molestias, aperiam ea quaerat qui sit explicabo placeat aut, totam culpa deleniti voluptates non, facere nisi natus. Omnis.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate asperiores adipisci, incidunt molestias quam quibusdam maxime doloremque, atque, dicta est officiis hic ullam. Deleniti aliquid cumque itaque totam animi consectetur, quidem assumenda minus modi ab architecto aut dolorum quibusdam quisquam, sapiente reprehenderit sit aspernatur autem facere deserunt quam voluptatum asperiores doloremque? Quas aspernatur quo, sed aperiam fugit molestiae exercitationem eius, dolorem quos assumenda cupiditate delectus cumque reiciendis tempora eos molestias ullam! Odit nesciunt ut tempore voluptates quae porro deleniti, ipsam voluptate, explicabo autem repellat nobis culpa ullam ad dolorem, qui voluptatum. Vero doloremque voluptatibus distinctio repellendus quod obcaecati quam quae?</p>
+        </article>
+    </main>
+
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
