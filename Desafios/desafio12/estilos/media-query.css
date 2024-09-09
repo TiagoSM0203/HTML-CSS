@@ -13,6 +13,7 @@ Lilas: #5f2c82
 
     .login {
         width: 80vw;
+        height: 280px;
     }
 
     .imagem {
@@ -33,7 +34,8 @@ Lilas: #5f2c82
     }
 
     .login {
-        width: 90vw;
+        width: 950px;
+        height: 350px;
     }
 
     .imagem {
@@ -52,6 +54,7 @@ Lilas: #5f2c82
     }
 
     p {
-        font-size: 1.2em;
+        font-size: 1em;
+        margin: 20px 0px;
     }
 }
