@@ -25,12 +25,10 @@ header {
 }
 
 header h1 {
-    border: 1px solid black;
     flex: 0 0 200px;
 }
 
 header menu {
-    border: 1px solid black;
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
